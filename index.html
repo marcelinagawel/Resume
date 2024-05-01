@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link href="assets/css/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+  <title>Resume</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo" data-aos-delay="200" data-aos="fade-down">
+        <a href="assets/resume.pdf" target="_blank" class="btn btn-outline-light download-resume">Resume</a>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav-links">
+          <li class="active" data-aos-delay="200" data-aos="fade-down">
+            <a href="#skills">Skills</a>
+          </li>
+          <li data-aos-delay="300" data-aos="fade-down">
+            <a href="#experience">Experience</a>
+          </li>
+          <li data-aos-delay="350" data-aos="fade-down">
+            <a href="#education">Education</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="right-content" data-aos-delay="500" data-aos="fade-down">
+        <div class="theme-color-toggle">
+          <svg class="moon" viewBox="0 0 24 24">
+            <use xlink:href="assets/img/sprite.svg#moon-icon"></use>
+          </svg>
+          <svg class="sun" viewBox="0 0 24 24">
+            <use xlink:href="assets/img/sprite.svg#sun-icon"></use>
+          </svg>
+        </div>
+
+        <svg class="mobile-menu-toggle" viewBox="0 0 24 24">
+          <use xlink:href="assets/img/sprite.svg#menu"></use>
+        </svg>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section">
+      <div class="container">
+        <div class="content" data-aos="fade-up">
+          <p class="above-title mb-16">My name is</p>
+          <h1 class="full-name">Marcelina <span class="primary">Gaweł.</span></h1>
+          <p class="about">
+            I'm a Junior Mobile Distribution Subject Matter Expert, dedicated to advancing the reach and impact of
+            mobile
+            applications. With a focus on optimizing distribution channels and maximizing app visibility, I bring
+            expertise in market analysis, channel management, and strategic promotion. I'm passionate about driving app
+            adoption and am eager to collaborate with companies seeking to enhance their mobile distribution strategies.
+          <ul class="social-icons">
+            <li>
+              <a href="https://github.com/marcelinagawel">
+                <svg viewBox="0 0 24 24">
+                  <use xlink:href="assets/img/sprite.svg#github-icon"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/marcelina-gawe%C5%82-b23723229/">
+                <svg viewBox="0 0 24 24">
+                  <use xlink:href="assets/img/sprite.svg#linkedin-icon"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills-section" id="skills">
+      <div class="container">
+        <div class="section-name center" data-aos="fade-up">
+          <div class="content">
+            <p class="above-title">Skills</p>
+            <h4 class="title">Specialized in</h4>
+          </div>
+        </div>
+        <div class="service-item-wrapper">
+          <div class="service-item" data-aos="fade-up" data-aos-delay="200">
+            <h4 class="title">CI/CD</h4>
+            <p class="body">
+              Building public and internal mobile applications using Azure DevOps or Xcode for seamless integration,
+              robust
+              testing, and efficient deployment, accompanied by comprehensive documentation.
+            </p>
+          </div>
+          <div class="service-item" data-aos="fade-up" data-aos-delay="250">
+            <h4 class="title">Automation and Integration</h4>
+            <p class="body">
+              Streamlining repetitive processes and integrating with various systems using Power Automate tool for
+              optimal efficiency and seamless workflow enhancement, all accompanied by comprehensive documentation.
+            </p>
+          </div>
+          <div class="service-item" data-aos="fade-up" data-aos-delay="300">
+            <h4 class="title">Platform Management</h4>
+            <p class="body">
+              Application maintenance and support services, seamlessly integrating with popular stores
+              such as AppStore, Google Play Console, and Microsoft Intune to ensure continuous performance and
+              reliability.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience-section" id="experience">
+      <div class="container">
+        <div class="side">
+          <div class="section-name" data-aos="fade-up">
+            <p class="above-title">Career path</p>
+            <h4 class="title">Work Experience</h4>
+          </div>
+          <div class="companies-list">
+            <div class="selector">
+              <svg viewBox="0 0 24 24">
+                <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
+              </svg>
+            </div>
+            <ul>
+              <li data-tab="abb" class="active" data-aos="fade-up">
+                ABB
+              </li>
+              <li data-tab="tbc" data-aos-delay="50" data-aos="fade-up">
+                TBC Project Intern
+              </li>
+              <li data-tab="abb-intern" data-aos-delay="100" data-aos="fade-up">
+                ABB Intern
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="content active" id="abb">
+          <div class="headline" data-aos-delay="50" data-aos="fade-up">
+            <h4 class="job-title">
+              Junior Mobile Applications SME
+            </h4>
+            <p class="location">Kraków, Poland</p>
+            <p class="period">May 2023 - Present · Full-time</p>
+            <ul class="stack-list">
+              <li class="tag">Azure DevOps</li>
+              <li class="tag">Xcode</li>
+              <li class="tag">Power Automate</li>
+              <li class="tag">Microsoft Azure Storage</li>
+            </ul>
+          </div>
+          <div class="line"></div>
+          <ul class="responsibilities">
+            <li data-aos-delay="50" data-aos="fade-up">
+              Building and exporting both public and internal applications for ABB company using advanced tools such as
+              Azure DevOps pipelines and Xcode.
+            </li>
+            <li data-aos-delay="100" data-aos="fade-up">
+              Maintaining technical documentation post-application build process with a focus on application security.
+            </li>
+            <li data-aos-delay="150" data-aos="fade-up">
+              Preliminary validation of applications to ensure compliance with publishing requirements set by app store
+              providers such as Google and Apple.
+            </li>
+            <li data-aos-delay="200" data-aos="fade-up">
+              Deploying mobile applications to both public and private stores, such as AppStore, Google Play, Microsoft
+              Store, and Microsoft Intune. Familiarity with the specifications and procedures of each platform.
+            </li>
+            <li data-aos-delay="250" data-aos="fade-up">
+              Automation and integration using Power Automate tool to optimize repetitive processes and integrate with
+              various systems. </li>
+          </ul>
+        </div>
+        <div class="content" id="tbc">
+          <div class="headline" data-aos-delay="50" data-aos="fade-up">
+            <h4 class="job-title">
+              Web Developer Intern
+            </h4>
+            <p class="location">Kraków, Poland</p>
+            <p class="period">September 2020 - October 2020</p>
+            <ul class="stack-list">
+              <li class="tag">UX/UI</li>
+              <li class="tag">Social Media</li>
+            </ul>
+          </div>
+          <div class="line"></div>
+          <ul class="responsibilities">
+            <li>
+              Graphic design of websites using Photoshop and coding them using HTML, CSS (Bootstrap), SASS, and LESS.
+            </li>
+            <li>
+              Development of company social media presence.
+            </li>
+          </ul>
+        </div>
+        <div class="content" id="abb-intern">
+          <div class="headline" data-aos-delay="50" data-aos="fade-up">
+            <h4 class="job-title">
+              Developer Intern
+            </h4>
+            <p class="location">Kraków, Poland</p>
+            <p class="period">Feb 2020 - March 2020 </p>
+            <ul class="stack-list">
+              <li class="tag">Python</li>
+              <li class="tag">PostgreSQL</li>
+            </ul>
+          </div>
+          <div class="line"></div>
+          <ul class="responsibilities">
+            <li>
+              Work on an application project within ABB company focusing on work planning and task scheduling, based on
+              Python language and PostgreSQL.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="education-section" id="education">
+      <div class="container">
+        <div class="section-name" data-aos="fade-up">
+          <p class="above-title">Learning Path</p>
+          <h4 class="title">Education & Certificates</h4>
+        </div>
+        <div class="education-wrapper">
+          <div class="education">
+            <div class="education-item" data-aos="fade-up" data-aos-delay="100">
+              <h4 class="school">Wyższa Szkoła Ekonomii i Informatyki w Krakowie </h4>
+              <p class="degree-field">
+                Engineer's degree - Applied Computer Science
+              </p>
+              <p class="date">Kraków, Poland</p>
+              <p class="date">2023 - Present</p>
+            </div>
+            <div class="education-item" data-aos="fade-up" data-aos-delay="150">
+              <h4 class="school">Zespół Szkół Łączności im. Obrońców Poczty Polskiej w Gdańsku</h4>
+              <p class="degree-field">
+                IT Technician
+              </p>
+              <p class="date">Kraków, Poland</p>
+              <p class="date">2018 - 2022</p>
+            </div>
+          </div>
+
+          <div class="education">
+            <div class="education-item-certificate" data-aos="fade-up" data-aos-delay="100">
+              <h4 class="school">Information Technology Specialist in HTML and CSS</h4>
+              <p class="degree-field">
+                April 2024
+              </p>
+            </div>
+            <div class="education-item-certificate" data-aos="fade-up" data-aos-delay="150">
+              <h4 class="school">Information Technology Specialist in Software Development </h4>
+              <p class="degree-field">
+                January 2024
+              </p>
+            </div>
+            <div class="education-item-certificate" data-aos="fade-up" data-aos-delay="200">
+              <h4 class="school">Information Technology Specialist in Databases </h4>
+              <p class="degree-field">
+                December 2023
+              </p>
+            </div>
+            <div class="education-item-certificate" data-aos="fade-up" data-aos-delay="250">
+              <h4 class="school">EE.09 / INF.03 - Programming, creation, and administration of websites and databases
+              </h4>
+              <p class="degree-field">
+                January 2022
+              </p>
+            </div>
+            <div class="education-item-certificate" data-aos="fade-up" data-aos-delay="250">
+              <h4 class="school">EE.08 / INF.02 - Assembly and operation of computer systems, peripheral devices, and
+                networks </h4>
+              <p class="degree-field">
+                June 2021
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <ul class="social-icons" data-aos="fade-up" data-aos-delay="50">
+      <li>
+        <a href="https://github.com/marcelinagawel">
+          <svg viewBox="0 0 24 24">
+            <use xlink:href="assets/img/sprite.svg#github-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/marcelina-gawe%C5%82-b23723229/">
+          <svg viewBox="0 0 24 24">
+            <use xlink:href="assets/img/sprite.svg#linkedin-icon"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+    <p class="copyright" data-aos="fade-up" data-aos-delay="100">
+      © <span class="year">2024</span> - <span class="bold"> Marcelina Gaweł </span>
+    </p>
+  </footer>
+</body>
+<script src="assets/js/aos.js"></script>
+<script src="./script.js"></script>
+
+</html>
